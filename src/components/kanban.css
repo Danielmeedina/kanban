@@ -1,0 +1,40 @@
+.container-task {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  /* background-color: slateblue; */
+  align-items: center;
+  flex-flow: row wrap;
+  gap: 30px;
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.3px);
+  -webkit-backdrop-filter: blur(1.3px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.tasks {
+  min-width: 300px;
+  min-height: auto;
+  border-radius: 10px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.3px);
+  -webkit-backdrop-filter: blur(1.3px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.tasks h2 {
+  margin-bottom: 15px;
+}
+
+.tasks:nth-child(2) {
+  color: rgb(223, 223, 12);
+}
+
+.tasks:nth-child(3) {
+  color: greenyellow;
+}
